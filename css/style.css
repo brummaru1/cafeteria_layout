@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+:root {
+    --verde: #7a9c7b;
+}
+
+header .cont_header {
+    width: 100%;
+    height: 2rem;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .back {
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .fav_upload {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+
+    .fav {
+        margin-right: 10px;
+    }
+
+    .btn-header {
+        height: 100%;
+        color: black;
+        border-radius: 50%;
+        border: solid 1px gray;
+        font-size: 22px;
+        padding: 6px;
+    }
+}
+
+section {
+    .info_cafeteria {
+        width: 100%;
+        height: 10rem;
+        background-color: blueviolet;
+    }
+
+    .img_principal {
+        height: 16rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+
+        img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+    }
+
+    .marca {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .nombre {
+            font-size: 1.5rem;
+            margin: 10px;
+        }
+
+        .map {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 10px;
+        }
+    }
+
+
+
+    .desripcion_cafeteria {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .datos_cafeteria {
+        height: 2rem;
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+
+        .lugar_puntuacion {
+            height: 100%;
+            width: 74%;
+            display: flex;
+            flex-direction: column;
+
+            .lugar {
+                color: grey;
+            }
+
+
+        }
+
+        .telefono {
+            /* background-color: green; */
+            height: 100%;
+            width: 2rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px gray;
+        }
+    }
+}
+
+.puntuacion {
+    display: flex;
+    align-items: center;
+    color: black;
+
+    i {
+        font-size: 14px;
+    }
+}
+
+.star {
+    color: #efb810;
+}
+
+
+nav.scroll {
+    /* width: 100% auto; */
+    padding: 12px;
+    margin: 10px;
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    overflow-x: scroll;
+    color: red;
+
+    a {
+        text-decoration: none;
+    }
+
+
+}
+
+.scroll_mini {
+    /* height: 100%; */
+    width: 9rem;
+    flex: 0 0 80px;
+    text-decoration: none;
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+.scroll_grande {
+    height: 15rem;
+    width: 12rem;
+    flex: 0 0 80px;
+    text-decoration: none;
+
+    .datos {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .ubi {
+        color: gray;
+    }
+    .foto{
+        height: 9rem;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+}
+
+
+
+
+
+.cont_boton {
+    padding: 4px;
+    width: 5.1rem;
+    border-radius: 30px;
+    height: 2rem;
+
+    /* border: solid 1px green; */
+    /*SOLO CUANDO LO SELECCIONA*/
+    .scroll_boton {
+        border-radius: 25px;
+        height: 1.9rem;
+        width: 4.5rem;
+        padding: 3px;
+        border: none;
+    }
+ 
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    .cont_menu {
+        height: 3rem;
+        width: 20rem;
+        margin: 6px;
+        border-radius: 25px;
+        display: flex;
+        /* align-items: center;
+        justify-content: flex-end; */
+        border: solid 1px black;
+
+        input {
+            height: 100%;
+            width: 86%;
+            border-radius: 25px 0 0 25px;
+            border: none;
+            padding: 20px;
+
+        }
+        input:focus{
+            outline: none;
+        }
+
+        .comida {
+            height: 100%;
+            width: 9rem;
+            display: flex;
+            align-items: center;
+            padding-left: 20px
+        }
+
+        .precio_flecha {
+
+            height: 100%;
+            width: 6rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 2px;
+            align-items: center;
+            margin-left: 52px;
+            margin-right: 5px;
+
+        }
+    }
+    .lupa {
+        height: 100%;
+        width: 14%;
+        display: flex;
+        .icono{
+            background-color: white;
+            border: none;
+        }
+    }
+    .flecha{
+        border-radius: 50%;
+    padding: 0.4rem;
+    border: none;
+    color: white;
+    background: black;
+    }
+
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-around;
+
+    select {
+        height: 2rem;
+        /* width: 8rem; */
+        text-align: center;
+        border: none;
+    }
+    option{
+        text-align: left
+    }
+
+}
+
+
+nav.menu_inferior {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    
+    .boton_inferior {
+        flex: 0 0 25%;
+        /*IMPONE EL ANCHO DE CADA ELEMENTO EN EL CONTENEDOR FLEX*/
+        border: 0;
+        /*LE SACA LOS BORDES*/
+        background-color: transparent;
+        /*LO HACE TRANSPARENTE*/
+        cursor: pointer;
+        /*PONE LA MANITO AL PASAR POR EL BOTON*/
+        transition: all 0.1 ease-in-out;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+    }
+    a:visited{
+        color: black;
+    }
+    a:active {
+        border-top: solid 3px green;
+        /*LE AGREGA EL BORDE ROJO ARRIBA AL PASAR CON EL MOUSE*/
+        font-weight: 700;
+    }
+
+}
+
+.espacio {
+    margin: 15px;
+}
+
+
+.imagen_perfil {
+    height: 10rem;
+    width: 100%;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 12px;
+    .cont_foto {
+        height: 12rem;
+        width: 12rem;
+        position: absolute;
+        bottom: -6rem;
+
+        img {
+            border-radius: 50%;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+
+.datos_perfil {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+    .cont_dato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dato {
+        border:none;
+        border-bottom: solid 1px black;
+        height: 3rem;
+        width: 15rem;
+        margin: 0 3rem;
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+    }
+    .dato:focus{
+        outline: none;
+    }
+}
+
+@media (orientation=landscape) {
+    .datos_perfil {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.body_color {
+    background-color: var(--verde);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index_salir {
+    height: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: 20px;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.index_imagen {
+    background-color: aqua;
+    height: 50%;
+    width: 100%;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.index_bienvenida {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+    h1 {
+        margin-bottom: 3rem;
+    }
+
+    p {
+        padding: 0 2rem 0;
+    }
+}
+
+
+.iniciar {
+    height: 3rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+}
+
+.borde_externo {
+    height: 4rem;
+    width: 21rem;
+    margin: 10px;
+    border-radius: 35px;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.cont_formulario {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--verde);
+        height: -webkit-fill-available;
+        width: 25rem;
+        border-radius: 12px;
+        .input_form {
+            height: 3rem;
+            width: 20rem;
+            margin: 20px;
+            border: none;
+            border-bottom: solid 1px black;
+            background: none;
+            padding: 12px;
+        }
+    }
+}
+
+.titulo {
+    color: black;
+}
+
+.favs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top:12px;
+}
