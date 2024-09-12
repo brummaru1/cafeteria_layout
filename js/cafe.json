@@ -1,0 +1,97 @@
+[
+    {
+        "id_cafe": "1",
+        "name": "Blue Bottle Coffee",
+        "description": "Known for its fresh, artisanal coffee and sleek modern design.",
+        "ubication": "Downtown San Francisco, CA",
+        "phone": "+1 415-357-0000",
+        "puntuation": "4.6",
+        "id_plate": "1",
+        "delivery": "no",
+        "visited": "yes",
+        "fotoPrincipal":"https://sanremolatin.com/wp-content/uploads/2021/12/como-crear-el-espacio-perfecto-para-una-cafeteria.png",
+        "fotos": [
+            "https://images.pexels.com/photos/3838633/pexels-photo-3838633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://plus.unsplash.com/premium_photo-1668471822147-441bc5aaff67?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i.pinimg.com/236x/3f/ee/07/3fee0723df4744b5189c277d91f9e259.jpg",
+            "https://img.freepik.com/fotos-premium/grupo-tazas-cafe-esparcidas-platos-cafeteria_132358-22289.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6Z37m4DF5-JOow2_JlzQ2lZ252_1e_hYmA&s"
+        ]
+    },
+    {
+        "id_cafe": "2",
+        "name": "Stumptown Coffee Roasters",
+        "description": "A pioneer in the specialty coffee movement, offering a wide range of unique brews.",
+        "ubication": "Uptown Portland, OR",
+        "phone": "+1 503-223-4391",
+        "puntuation": "4.7",
+        "id_plate": "2",
+        "delivery": "no",
+        "visited": "no",
+        "fotoPrincipal":"https://filbak.com/wp-content/uploads/2020/09/caterpillar-interiorismo-cantina-malaga.jpg",
+        "fotos": [
+            "https://images.pexels.com/photos/3838633/pexels-photo-3838633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://plus.unsplash.com/premium_photo-1668471822147-441bc5aaff67?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i.pinimg.com/236x/3f/ee/07/3fee0723df4744b5189c277d91f9e259.jpg",
+            "https://img.freepik.com/fotos-premium/grupo-tazas-cafe-esparcidas-platos-cafeteria_132358-22289.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6Z37m4DF5-JOow2_JlzQ2lZ252_1e_hYmA&s"
+        ]
+    },
+    {
+        "id_cafe": "3",
+        "name": "The Mudhouse Coffee",
+        "description": "A charming spot known for its cozy atmosphere and delicious coffee.",
+        "ubication": "Midtown Charlottesville, VA",
+        "phone": "+1 434-984-6838",
+        "puntuation": "4.4",
+        "id_plate": "3",
+        "delivery": "yes",
+        "visited": "no",
+        "fotoPrincipal":"https://www.nestleprofessional.es/sites/default/files/styles/np_article_big/public/2023-09/tips-para-cafeteria-sea-mas-ecol.png?itok=09f5UXXG",
+        "fotos": [
+            "https://images.pexels.com/photos/3838633/pexels-photo-3838633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://plus.unsplash.com/premium_photo-1668471822147-441bc5aaff67?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i.pinimg.com/236x/3f/ee/07/3fee0723df4744b5189c277d91f9e259.jpg",
+            "https://img.freepik.com/fotos-premium/grupo-tazas-cafe-esparcidas-platos-cafeteria_132358-22289.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6Z37m4DF5-JOow2_JlzQ2lZ252_1e_hYmA&s"
+        ]
+    },
+    {
+        "id_cafe": "4",
+        "name": "Cafe Gratitude",
+        "description": "A popular spot among health-conscious individuals, offering organic coffee and plant-based food.",
+        "ubication": "Near University Los Angeles, CA",
+        "phone": "+1 310-828-2888",
+        "puntuation": "5",
+        "id_plate": "4",
+        "delivery": "yes",
+        "visited": "yes",
+        "fotoPrincipal":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiSFol3UREGWax7Zzhhzk8jLR0dow19FQbJw&s",
+        "fotos": [
+            "https://images.pexels.com/photos/3838633/pexels-photo-3838633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://plus.unsplash.com/premium_photo-1668471822147-441bc5aaff67?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i.pinimg.com/236x/3f/ee/07/3fee0723df4744b5189c277d91f9e259.jpg",
+            "https://img.freepik.com/fotos-premium/grupo-tazas-cafe-esparcidas-platos-cafeteria_132358-22289.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6Z37m4DF5-JOow2_JlzQ2lZ252_1e_hYmA&s"
+        ]
+    },
+    {
+        "id_cafe": "5",
+        "name": "The Grounds of Alexandria",
+        "description": "Features a stunning garden setting with a variety of fresh, locally-sourced food and coffee.",
+        "ubication": "Suburbs of Sydney, Australia",
+        "phone": "+61 2 9699 2225",
+        "puntuation": "4.8",
+        "id_plate": "5",
+        "delivery": "no",
+        "visited": "yes",
+        "fotoPrincipal":"https://www.franquiciasdecafe.com.mx/storage/2013/05/concejos-para-abrir-cafeteria.jpg",
+        "fotos": [
+            "https://images.pexels.com/photos/3838633/pexels-photo-3838633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://plus.unsplash.com/premium_photo-1668471822147-441bc5aaff67?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i.pinimg.com/236x/3f/ee/07/3fee0723df4744b5189c277d91f9e259.jpg",
+            "https://img.freepik.com/fotos-premium/grupo-tazas-cafe-esparcidas-platos-cafeteria_132358-22289.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv6Z37m4DF5-JOow2_JlzQ2lZ252_1e_hYmA&s"
+        ]
+    }
+]

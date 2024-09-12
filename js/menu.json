@@ -1,0 +1,162 @@
+[
+    {
+        "id_comida": 1,
+        "dish": "Chocolate Chip Cookie",
+        "price": 2.50,
+        "puntuation": 4.5,
+        "ingredients": ["flour", "sugar", "butter", "chocolate chips", "eggs"],
+        "category": "cookies"
+    },
+    {
+        "id_comida": 2,
+        "dish": "Red Velvet Cake",
+        "price": 4.75,
+        "puntuation": 4.7,
+        "ingredients": ["flour", "cocoa powder", "buttermilk", "eggs", "cream cheese"],
+        "category": "cake"
+    },
+    {
+        "id_comida": 3,
+        "dish": "Matcha Green Tea",
+        "price": 3.00,
+        "puntuation": 4.6,
+        "ingredients": ["matcha powder", "water", "sugar", "milk", "ice"],
+        "category": "tea"
+    },
+    {
+        "id_comida": 4,
+        "dish": "Espresso",
+        "price": 2.00,
+        "puntuation": 4.8,
+        "ingredients": ["coffee beans", "water"],
+        "category": "coffee"
+    },
+    {
+        "id_comida": 5,
+        "dish": "Iced Vanilla Latte",
+        "price": 3.75,
+        "puntuation": 4.5,
+        "ingredients": ["espresso", "milk", "vanilla syrup", "ice", "sugar"],
+        "category": "ice coffee"
+    },
+    {
+        "id_comida": 6,
+        "dish": "Lemon Drizzle Cake",
+        "price": 4.50,
+        "puntuation": 4.6,
+        "ingredients": ["flour", "sugar", "lemon zest", "butter", "eggs"],
+        "category": "cake"
+    },
+    {
+        "id_comida": 7,
+        "dish": "Bagel with Cream Cheese",
+        "price": 3.25,
+        "puntuation": 4.4,
+        "ingredients": ["bagel", "cream cheese", "salt", "pepper", "chives"],
+        "category": "bagels"
+    },
+    {
+        "id_comida": 8,
+        "dish": "Oatmeal Raisin Cookie",
+        "price": 2.75,
+        "puntuation": 4.3,
+        "ingredients": ["oats", "raisins", "flour", "brown sugar", "butter"],
+        "category": "cookies"
+    },
+    {
+        "id_comida": 9,
+        "dish": "Carrot Cake",
+        "price": 5.00,
+        "puntuation": 4.7,
+        "ingredients": ["carrots", "flour", "sugar", "cream cheese", "walnuts"],
+        "category": "cake"
+    },
+    {
+        "id_comida": 10,
+        "dish": "Chamomile Tea",
+        "price": 2.50,
+        "puntuation": 4.5,
+        "ingredients": ["chamomile flowers", "water", "honey", "lemon", "ice"],
+        "category": "tea"
+    },
+    {
+        "id_comida": 11,
+        "dish": "Cappuccino",
+        "price": 3.25,
+        "puntuation": 4.6,
+        "ingredients": ["espresso", "steamed milk", "foam", "cocoa powder", "sugar"],
+        "category": "coffee"
+    },
+    {
+        "id_comida": 12,
+        "dish": "Caramel Iced Coffee",
+        "price": 4.00,
+        "puntuation": 4.4,
+        "ingredients": ["espresso", "milk", "caramel syrup", "ice", "whipped cream"],
+        "category": "ice coffee"
+    },
+    {
+        "id_comida": 13,
+        "dish": "Cheesecake",
+        "price": 5.25,
+        "puntuation": 4.8,
+        "ingredients": ["cream cheese", "sugar", "eggs", "vanilla extract", "graham crackers"],
+        "category": "cake"
+    },
+    {
+        "id_comida": 14,
+        "dish": "Everything Bagel",
+        "price": 3.50,
+        "puntuation": 4.2,
+        "ingredients": ["bagel", "poppy seeds", "sesame seeds", "garlic", "onion"],
+        "category": "bagels"
+    },
+    {
+        "id_comida": 15,
+        "dish": "Peanut Butter Cookie",
+        "price": 2.50,
+        "puntuation": 4.4,
+        "ingredients": ["peanut butter", "flour", "sugar", "eggs", "baking soda"],
+        "category": "cookies"
+    },
+    {
+        "id_comida": 16,
+        "dish": "Vanilla Sponge Cake",
+        "price": 4.00,
+        "puntuation": 4.5,
+        "ingredients": ["flour", "sugar", "butter", "eggs", "vanilla extract"],
+        "category": "cake"
+    },
+    {
+        "id_comida": 17,
+        "dish": "Earl Grey Tea",
+        "price": 2.75,
+        "puntuation": 4.6,
+        "ingredients": ["black tea", "bergamot oil", "water", "milk", "sugar"],
+        "category": "tea"
+    },
+    {
+        "id_comida": 18,
+        "dish": "Mocha Iced Coffee",
+        "price": 4.25,
+        "puntuation": 4.7,
+        "ingredients": ["espresso", "milk", "chocolate syrup", "ice", "whipped cream"],
+        "category": "ice coffee"
+    },
+    {
+        "id_comida": 19,
+        "dish": "Bagel with Smoked Salmon",
+        "price": 4.50,
+        "puntuation": 4.8,
+        "ingredients": ["bagel", "smoked salmon", "cream cheese", "capers", "red onion"],
+        "category": "bagels"
+    },
+    {
+        "id_comida": 20,
+        "dish": "Snickerdoodle Cookie",
+        "price": 2.75,
+        "puntuation": 4.3,
+        "ingredients": ["flour", "sugar", "cinnamon", "butter", "eggs"],
+        "category": "cookies"
+    }
+]
