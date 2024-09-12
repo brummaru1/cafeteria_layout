@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="menu">
+        <div class="cont_menu">
+            <input type="text" placeholder="Search" id="searchInput">
+            <div class="lupa">
+                <button class="icono"><i class="material-icons-outlined font-star">search</i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="opciones">
+
+        <select name="place" id="place">
+            <option value="">Elegir ubicacion</option>
+            <option value="Downtown San Francisco, CA">Downtown San Francisco, CA</option>
+            <option value="Midtown Charlottesville, VA">Midtown Charlottesville, VA</option>
+            <option value="Near University Los Angeles, CA">Near University Los Angeles, CA</option>
+            <option value="Suburbs of Sydney, Australia">Suburbs of Sydney, Australia</option>
+            <option value="Uptown Portland, OR">Uptown Portland, OR</option>
+        </select>
+
+        <select name="otro" id="otro">
+            <option value="">Filtro</option>
+            <option value="recommend">Recommend</option>
+            <option value="delivery">Delivery</option>
+        </select>
+    </section>
+
+    <h2 class="espacio">Explore restaurant</h2>
+    <nav class="scroll">
+        <div class="cont_boton"><input type="button" id="category" value="Cafe" class="scroll_boton"></div>
+        <div class="cont_boton"><button class="scroll_boton">Bakery</button></div>
+        <div class="cont_boton"><button class="scroll_boton">Italian</button></div>
+        <div class="cont_boton"><button class="scroll_boton">Vegetarian</button></div>
+    </nav>
+    <div class="error-message" id="errorMessage" style="display: none; color:black;">
+        <h2>
+            <div class="">error</div><i>No se encontraron productos que coincidan con los filtros seleccionados.</i>
+        </h2>
+    </div>
+    <nav id="cafeListado" class="scroll">
+
+    </nav>
+
+
+    <nav class="menu_inferior">
+        <a href="explore.html" class="boton_inferior">Explore</a>
+        <a href="visited.html" class="boton_inferior">Visited</a>
+        <a href="favourite.html" class="boton_inferior">Favourities</a>
+        <a href="profile.html" class="boton_inferior">Profile</a>
+    </nav>
+
+
+</body>
+<script src="js/prueba.js"></script>
+
+</html>
