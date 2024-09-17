@@ -12,7 +12,7 @@ fetch("js/cafe.json")
             <a href="cafeteria.html?id=${data[i].id_cafe}" >
                 <div class="scroll_grande"> 
                     <div>
-                        <img  src="./img/principal.jpg">
+                         <img  src="${data[i].fotoPrincipal}">
                     </div>
                     <div class="datos">
                         <div class="titulo">${data[i].name}</div>
