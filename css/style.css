@@ -153,14 +153,15 @@ nav.scroll {
     overflow: hidden;
     overflow-x: scroll;
     color: red;
+    text-decoration: none;
 
-    a {
-        text-decoration: none;
-    }
 
 
 }
 
+a {
+    text-decoration: none;
+}
 .scroll_mini {
     /* height: 100%; */
     width: 9rem;
@@ -184,6 +185,7 @@ nav.scroll {
         display: flex;
         flex-direction: column;
         gap: 8px;
+        text-decoration: none;
     }
 
     .ubi {
@@ -197,7 +199,7 @@ nav.scroll {
         width: 100%;
         border-radius: 10px;
     }
-
+    text-decoration: none;
 
 }
 
